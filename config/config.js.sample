@@ -105,6 +105,26 @@ let config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{ 
+			module: "MMM-NowPlayingOnSpotify",
+			position: "bottom_right",
+		
+			config: {
+				showCoverArt: true,
+				clientID: "YOUR_CLIENT_ID",
+				clientSecret: "YOUR_CLIENT_SECRET",
+				accessToken: "YOUR_ACCESS_TOKEN",
+				refreshToken: "YOUR_REFRESH_TOKEN"
+			}
+		},
+		{
+			module: "MMM-Strava",
+			position: "bottom_left",
+			config: {
+			  client_id: "YOUR_CLIENT_ID",
+			  client_secret: "YOUR_CLIENT_SECRET"
+			}
+		}
 	]
 };
 
